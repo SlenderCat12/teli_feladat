@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -8,6 +14,20 @@
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
+}
+
+.menu-items table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.menu-items td{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 0.25em;
 }
 
 
