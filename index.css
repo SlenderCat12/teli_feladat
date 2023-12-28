@@ -16,6 +16,23 @@
     text-align: center;
 }
 
+.grid-item table{
+    width: 30%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.grid-item td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid blue;
+}
+.grid-item th{
+    border-bottom: 2px solid blue;
+}
+.grid-item tr:nth-child(2n){
+    background-color: lightblue;
+}
+
 .menu-items table{
     width: 100%;
     border-collapse: collapse;
